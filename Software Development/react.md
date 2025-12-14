@@ -480,6 +480,7 @@ Writing an app is one thing; making sure it's fast and reliable is another.
 - Performance Optimization:
     - React.memo: A higher-order component that memoizes a component, preventing it from re-rendering if its props haven't changed.
     - Code Splitting: Using React.lazy() and <Suspense> to load components only when they are needed.
+    - Implement lazy loading for images using the loading="lazy" attribute or libraries.
     - Virtualization: Rendering only the visible items in a very long list to improve performance (e.g., using react-window).
     - React DevTools Profiler: Knowing how to use this tool to find and fix performance bottlenecks in your application.
 - Testing:
